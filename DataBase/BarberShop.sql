@@ -10,7 +10,7 @@ CREATE TABLE `usuario` (
   PRIMARY KEY (`IdUsuario`)
 ) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 
--- Usuário: ADMIN - Senha: 12345678
+-- Usuário: ADMIN - Senha: 12345678 
 INSERT INTO `usuario` VALUES (17,'ADMIN','$2a$10$NfsbmMqgvI.V8MqIsgbMJudz9KrDRjQfKo78PveD0mo1Tqn099e7i');
 
 DROP TABLE IF EXISTS `servico`;
